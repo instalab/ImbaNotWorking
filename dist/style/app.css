@@ -1,0 +1,26 @@
+body {
+  height: calc(100vh - 30px);
+  padding: 60px;
+  box-sizing: border-box; }
+
+.App {
+  border-radius: 8px;
+  background: lightgray;
+  height: 100%;
+  padding: 32px;
+  box-sizing: border-box; }
+
+.Element {
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  height: 30px; }
+  .Element .element {
+    color: black;
+    background: white;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    cursor: move;
+    user-select: none; }
